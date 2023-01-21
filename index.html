@@ -1,0 +1,186 @@
+<html>
+<head>   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="local.css">
+
+    <script>
+        function pilih(yagitu) {
+            var i;
+            var x = document.getElementsByClassName("yagitu");
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(yagitu).style.display = "block";
+    }
+    </script>
+</head>
+    
+    <center>
+    <header class="my-header">
+        <table>
+            <td>
+            <div class="my-headtext">
+            <h2><b>PPWB</b></h2>
+        </div>
+            </td>
+
+            <td><div class="my-headtext1">
+            <h4>Pondok Pesantren Wali Barokah</h4>
+        </div></td>
+
+        </table>
+
+    </header>
+    </center>
+    
+    <div class="w3-bar w3-white">
+        <button class="w3-bar-item w3-button" onclick="pilih('identitas')">Identitas</button>
+        <button class="w3-bar-item w3-button" onclick="pilih('tujuan')">Tujuan</button>
+
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Sistem</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="pilih('spesial')">Sistem Pendidikan</button>
+                <button class="w3-bar-item w3-button" onclick="pilih('kurikulum')">Kurikulum</button>
+                  
+            </div>
+        </div>
+            
+            <button class="w3-bar-item w3-button" onclick="pilih('moto')">Moto</button>
+            <button class="w3-bar-item w3-button" onclick="pilih('perkenalkan')">Introduce</button>
+    </div>
+    
+    <div id="identitas" class="w3-container yagitu w3-animate-left " style="display:none">
+        <center>    
+            <h2><b>Identitas</b></h2>
+        </center>    
+            <hr class="hr-moto">
+
+        <table>
+            <td><img src="wali.jfif" width="300px"></td><td>
+                <p style="color: rgb(69, 39, 2); font-weight: bold;">
+                    Nama Ponpes : Yayasan Pondok Pesantren Wali Barokah</p>
+
+                <p style="color: rgb(69, 39, 2); font-weight: bold;">
+                    Berdiri Tahun : 1950 M</p>
+                
+                <p style="color: rgb(69, 39, 2); font-weight: bold;">    
+                    Alamat Sekretariat: Jalan HOS Cokroaminoto 195 Kediri Jawa Timur</p>
+            </td>
+
+        </table>
+    </div>
+
+    <div id="tujuan" class="w3-container yagitu w3-animate-right " style="display:none">
+        <center>
+            <h2><b>Tujuan</b></h2>
+        </center>
+            <hr class="hr-hobi">
+            <td><img src="ngaji.jfif" width="280px"></td>
+
+        <table>
+            
+            <td><p style="color: rgb(57, 67, 48); font-weight: bold;">
+                Sesuai dengan visi, misi, tugas pokok dan fungsi Pondok Pesantren maka tujuan yang ingin 
+                dicapai adalah: Meningkatkan high peradaban, hidup, harkat dan martabat dalam kehidupan bermasyarakat, 
+                berbangsa, dan bernegara serta turut serta dalam pembangunan manusia Indonesia seutuhnya, yang dilandasi 
+                oleh keimanan dan ketakwaan kepada Tuhan Yang Maha Esa guna terwujudnya masyarakat madani yang demokratik 
+                dan adil sosial berdasarkan Pancasila, yang diridhoi Allah Subhanahu Wa ta'ala.</p>
+            </td>
+        </table>
+            
+    </div>
+
+    <div id="moto" class="w3-container yagitu w3-animate-top" style="display:none">
+        <center>    
+            <h2><b>Moto</b></h2>
+            
+            <hr class="hr-moto">
+
+        <table>
+            <td>
+                <p style="color: rgb(69, 39, 2); font-weight: bold;">
+                    "Rukun, Kompak, Kejasama Yang Baik, Jujur, Amanah, Hemat Dan Kerja keras"</p>
+                    <center><h4>Kecil di bina, Muda berkarya, Tua bahagia, Mati masuk surga</h4></center>
+            </td>
+
+        </table>
+        </center>
+    </div>
+    
+    
+    
+    <div id="spesial" class="w3-container yagitu w3-animate-top " style="display:none">
+        <center>
+            <h1><b>Sistem Pendidikan</b></h1>
+        
+            <hr class="hr-spesial">
+
+            <img src="ldii.png" width="210px">
+
+            <p><b>Visi yang ingin dicapai oleh Pondok Pesantren Walibarokah Burengan Banjaran Kediri adalah 
+                terlaksananya cita-cita yang dikenali dengan 'Tri Sukses Pondok LDII' yang merangkumi berjaya dalam bidang akhlak, 
+                alim, dan terampil / mandiri. Dalam bidang akhlak, pondok ini berusaha untuk mencetak manusia yang berwatak akhlakul 
+                karimah, mempunyai budi pekerti luhur, mempunyai tata karma, dan sopan santun dalam pergaulan masyarakat dan keluarga. 
+                Para alumni diarapkan menjadi manusia yang mempunyai jati diri, berwatak budi luhur, mampu bergaul dengan masyarakat, 
+                menghargai orang tua, dan mentaati segala peraturan dan undang-undang. Dalam bidang ilmu, pondok ini berusaha untuk 
+                mencetak manusia-manusia yang berilmu, mempunyai bekal ilmu agama Islam yang mantap serta mampu mengamalkan ilmu agama 
+                secara benar baik secara peribadi mahupun sebagai warga masyarakat. Di bidang kemahiran dan kemandirian, pondok ini 
+                bertekad untuk mencetak insane mandiri. Oleh kerana ini di samping para santri menerima pelajaran ilmu-ilmu agaa, 
+                merekajuga diberi bekal ketrampilan ssuai dengan bakatnya seperti kerampilan menjahit / bordir, pertukangan batu / 
+                kayu, elektronik, perbengkelan, pertanian, dan sebagainya. Denbgan demikian diharapkan setelah mereka lulus dari 
+                pondok tidak akan menggantungkan diri dapa keluarga dan orang tua, tetapi dapat hidup berdikari.</b></p>
+        
+            
+        
+        </center>
+    </div>
+
+    <div id="kurikulum" class="w3-container yagitu w3-animate-bottom " style="display:none">
+        <center>
+            <h1><b>Kurikulum</b></h1>
+        
+            <hr class="hr-spesial">
+
+            <img src="3sukses.jpg" width="350px">
+
+            <p><b>Pondok Pesantren Walibarokah Burengan Banjaran Kediri merupakan 'pondok tradisional plus'. 
+                Dalam hal ini santri tidak hanya diberi pelajaran ilmu agama saja tetapi juga dibekali ketrampilan sehingga boleh tercipta 
+                sumber manusia yang trampil dan mandiri yang berlandaskan iman dan taqwa kepada Tuhan. Secara umum dapat dikatakan bahawa 
+                sistem pendidikan di pondok pesantren ini bersifat non formal. Dalam hubungan ini, sistem pendidikan tidak mengenal adanya 
+                tingkatan formal dan akhir tahun ajaran. Para santri dikumpulkan atas dasar pakar kitab dan daya serap ilmu yang diajarkan. 
+                Setiap santri yang sudah merasa siap dapat mengajukan ujian untuk mendapatkan kelulusan.</b></p>
+
+            <p><b>Ada pelbagai kumpulan pembelajaran sesuai dengan peringkat kompetensi masing-masing santri mulai dari kelas anak-anak,
+                pemula, hingga kelas untuk persiapan ujian. Paling tidak ada sembilan kumpulan pembelajaran iaitu Cabe Rawit 
+                (usia 5-12 tahun), Menulis Arab, Bacaan Al-Quran, Tafsir lambatan Jawa, Tafsir lambatan Indonesia, Tafsir cepatan Jawa, 
+                Tafsir cepatan Indonesia, Ujian / Test, dan Lanjutan / Mahir ...........</p></b>
+        
+            
+ 
+        </center>
+    </div>
+
+    <div id="perkenalkan" class="w3-container yagitu w3-animate-fading " style="display:none">
+        <center>
+            <h1><b>Introduce</b></h1>
+        </center>
+                <center>
+                <section>
+                    <img src="gua.jpeg" width="250px">
+                </section><td>
+                    <p style="color: rgb(12, 70, 0); font-weight: bold;">
+                        Nama : Muhammad Japa maulana</p>
+
+                    <p style="color: rgb(0, 182, 12); font-weight: bold;">
+                        Nim  : 10122483</p>
+                
+                    <p style="color: rgb(0, 144, 17); font-weight: bold;">
+                        Kelas : If-7</p>
+                </center>
+                </td>
+        
+    </div>
+    
+</html>
